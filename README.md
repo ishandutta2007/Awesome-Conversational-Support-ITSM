@@ -32,79 +32,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global conversational AI and IT support automation market is estimated at **$14B–$19B** and projected to surpass **$75B–$115B+** by the mid-2030s, expanding at a robust **21%–25%+ CAGR**.
+
+The sector features a **hybrid competitive structure**: heavily **concentrated** at the core enterprise platform layer (dominated by hyperscalers and large ITSM incumbents like ServiceNow, Atlassian, and Zendesk), but **moderately fragmented** at the application and point-solution layer where niche agentic vendors and composable open-source frameworks compete to solve specialized, cross-system workflows.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Atlassian Assist](https://www.atlassian.com/software/jira/service-management)** (Jira Service Management)
-
-  **Slack-native service management** for Jira Service Management. Employees react with `:ticket:` or `/assist` in Slack to create tickets; Assist works with service spaces and can be used by people without Jira licenses . **Pricing**: **Tied to Jira Service Management Cloud**; AI-powered virtual service agent positioned on **Premium and Enterprise tiers**—**Assist is no longer available as a standalone purchase for new customers** . Jira Service Management is **free for up to 3 agents** . **Free tier**: Yes, 3 agents on JSM Free; Assist AI requires Premium+. **Best for**: Atlassian-centric organizations wanting Slack-first ticketing without leaving the Jira ecosystem—**trade-off**: Assist only in Premium+; single Slack workspace per Jira site; no native two-way thread sync .
-
-
-
-- **[Zendesk AI](https://www.zendesk.com/)**
-
-  **AI agents and agent assist** within Zendesk Suite. **Outcome-based pricing**: AI agents bill **per automated resolution** beyond included allowance (~**$1.50–$2.00 per resolution**); **Copilot is a separate $50/agent/month add-on** . **Pricing**: **Support Team $19/agent/mo annually**; **Suite Team $55**; **Suite Professional $115**; Suite Enterprise quote-only. AI resolution fees stack on top of seat costs. **Free tier**: **No permanent free tier**—**14-day free trial** on Suite Professional features . **Best for**: teams wanting AI resolution with per-outcome billing—**trade-off**: per-seat plus per-resolution stacks; resolution definition is vendor-determined.
-
-
-
-- **[Intercom](https://www.intercom.com/)**
-
-  **AI-first support platform** with Fin AI Agent and helpdesk. **Pricing**: **Essential from $29/seat/month annually** (includes Fin AI Agent and full helpdesk); Fin usage measured in **outcomes** (resolution, procedure handoff, qualification)—one outcome per conversation, no charge for escalations . **Free tier**: **14-day free trial** with full plan features plus free Fin, Copilot, and Proactive Support Plus; **no credit card required**; self-serve extension of **7 days** available from day 13 for eligible trials . **Best for**: teams wanting AI agent plus helpdesk in one platform with outcome-based AI billing—**trade-off**: seat pricing plus outcome fees; advanced add-ons extra.
-
-
-
-- **[Moveworks](https://www.moveworks.com/)** (**Acquired by ServiceNow**)
-
-  **Agentic AI for employee support** across IT, HR, and finance. **Pricing**: **Quote-only, per-employee** (not per-agent)—**no public tiers, no self-serve, annual only**. **AWS Marketplace anchor: $150/user/year for 1,000–2,500 users** (~$150,000/year for 1,000 employees) . **Median buyer pays ~$130,000/year** (range ~$89,500–$271,333) . **Free tier**: **None—no free trial, no self-serve** . **Best for**: large enterprises wanting multi-system agentic execution (password reset, access provisioning) via Slack/Teams—**trade-off**: six-figure minimum; now being folded into ServiceNow bundles.
-
-
-
-- **[Aisera](https://aisera.com/)** (**Acquired by Automation Anywhere**)
-
-  **AI service desk** for IT, HR, and customer support. **Pricing**: **Quote-only across 11 plans**—pricing page 404s; **median buyer pays ~$108,225/year** (Vendr data, range ~$53K–$118K); **AI Service Desk marketplace tiers $200K/year up to 1,000 users, $1.2M/year up to 10,000 users** . **Free tier**: **None published**—**30-day trial up to 50 users via AWS Marketplace** . Implementation adds **50–100% of Year-1 license** . **Best for**: enterprises wanting deep ITSM domain configuration—**trade-off**: post-acquisition roadmap uncertainty; heavy implementation services.
-
-
-
-- **[Freshservice](https://www.freshworks.com/freshservice/)**
-
-  **ITSM platform** with Freddy AI. **Pricing**: **Starter $19/agent/mo annually** (incident management, knowledge base, self-service portal); **Growth $49** (asset management, service catalog, approvals—capped at 100 managed assets); **Pro $99** (problem, change, project management); **Enterprise quote-only** (Freddy AI, orchestration, sandbox) . **Freddy AI sessions are a separate add-on, ~$29–$35/agent/month** . **Free tier**: **21-day free trial** with Enterprise-level features; no permanent free tier . **Best for**: mid-market IT teams wanting structured ITSM with optional AI—**trade-off**: Freddy AI costs extra; asset cap on Growth.
-
-
-
-- **[Capacity](https://www.capacity.com/)**
-
-  **AI-powered support platform** with helpdesk, live chat, and agent assist. **Pricing**: **Platform fee (annual subscription) plus usage-based AI Agent pricing**; LLM token costs included in usage—no separate token bill. Three tiers: **Core** (knowledge base, helpdesk, AI Agent Builder, 100 AI Assistant questions, 100GB storage); **Pro** (adds live chat, Agent Assist, conversation intelligence, 1TB); **Enterprise** (HIPAA, campaigns/CRM, 2TB) . **Free tier**: **None listed** . **Best for**: teams wanting transparent AI usage pricing without token surprises—**trade-off**: platform fee plus usage requires volume modeling.
-
-
-
-- **[Forethought](https://forethought.ai/)**
-
-  **Agentic AI for customer support** with Solve (resolution), Assist (agent productivity), and Triage. **Pricing**: **Quote-only, no published prices**—requires **20,000+ historical tickets** before selling; **Solve per-conversation ~$0.50–$2.00**; **Assist per-agent ~$50–$150/month**; **Voice AI ~$0.10–$0.50/minute** . **Free tier**: **None—no free trial** . Implementation **$10,000–$50,000+** . **Best for**: teams with substantial ticket volume wanting resolution automation—**trade-off**: high volume prerequisite; no self-serve evaluation.
-
-
-
-- **[Ada](https://www.ada.cx/)**
-
-  **Agentic customer experience** platform with action-taking AI agents. **Pricing**: **Quote-only; no published rates**—**AWS Marketplace entry: $33,000/year for 60,000 conversations**; Capterra/GetApp list **starting at $60,000 annually** . **Free tier**: **No free plan, no free trial** . Implementation **$15,000–$100,000+** . **Best for**: enterprises wanting deep system integrations for end-to-end resolution—**trade-off**: high entry price; consultation-only sales process.
-
-
-
-- **[Yellow.ai](https://yellow.ai/)**
-
-  **Conversational AI platform** for customer and employee support. **Pricing**: **Freemium plan** includes **5,000 monthly bot conversations**, **500 chat/email tickets/month**, **unlimited agent seats**, **2 channels**, FAQ module . **Premium**: custom quote. **Free tier**: **Yes—Freemium plan** with limits above; **1,000 free WhatsApp conversations/month** . **Best for**: teams wanting a genuine free tier to evaluate conversational AI—**trade-off**: freemium lacks Doc Cog, Data Explorer, SMS, and Voice.
-
-
+| Company / Product | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Key Features & Best For | Trade-offs |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Atlassian Assist](https://www.atlassian.com/software/jira/service-management)** (JSM) | **$53B market cap** (~$5.22B FY25 revenue) | **$20/agent/month** (Standard) or **$51.42/agent/month** (Premium) billed annually | **Free for up to 3 agents** permanently with 2 GB storage; includes core incident request queues and unlimited portal customers (AI Assist features require Premium tier). | Slack-native service management for Jira Service Management. Employees react with `:ticket:` or `/assist` in Slack to create tickets; works across service spaces without full Jira licenses. | AI virtual agent requires Premium+ ($51.42+/mo); single Slack workspace per Jira site; no native two-way thread sync. |
+| **[Zendesk AI](https://www.zendesk.com/)** | **$10.2B valuation** (Acquired by H&F/Permira; ~$1.34B+ ARR) | **$19/agent/month** billed annually (Support Team) or **$55/agent/month** (Suite Team) | **14-day free trial** with full access to Suite Professional features (no permanent free tier). | Built-in AI agents and agent assist within Zendesk Suite. Best for organizations wanting resolution-oriented automation natively inside their ticketing tool. | Outcome-based AI pricing ($1.50–$2.00 per automated resolution); Copilot is an additional $50/agent/mo; per-seat + per-resolution fees stack up. |
+| **[Freshservice](https://www.freshworks.com/freshservice/)** | **$3.8B market cap** (~$839M FY25 revenue) | **$19/agent/month** billed annually (Starter) or **$49/agent/month** (Growth) | **21-day free trial** with full Enterprise-tier features (no permanent free tier). | Structured ITSM platform with incident management, asset tracking, and Freddy AI service desk automation. Best for mid-market IT teams. | Freddy AI sessions require a separate add-on (~$29–$35/agent/mo); managed assets are capped at 100 on the Growth tier. |
+| **[Intercom](https://www.intercom.com/)** | **$3.6B acquisition valuation** (Salesforce; ~$400M ARR) | **$29/seat/month** billed annually (Essential) | **14-day free trial** (expandable by 7 days upon request) with full platform features, Fin AI Agent, and Copilot; no credit card required. | AI-first conversational platform with Fin AI Agent and modern helpdesk. Best for teams wanting integrated customer support with AI automation. | Outcome-based billing charges $0.99 per resolved conversation on top of seat licenses; advanced capabilities require higher tiers. |
+| **[Moveworks](https://www.moveworks.com/)** | **$2.85B acquisition valuation** (ServiceNow; ~$100M+ ARR) | **$150/user/year** (AWS Marketplace entry for 1,000–2,500 employees; ~$150K/year baseline contract) | **No self-serve free tier or public trial**; proof of concepts (POCs) and sandbox pilots are sales-negotiated for enterprise scoping. | Autonomous agentic AI for enterprise employee support across IT, HR, and finance with deep action resolution via Slack/Teams. | High enterprise entry barrier (six-figure annual minimum commitment); being integrated into ServiceNow enterprise packaging. |
+| **[Aisera](https://aisera.com/)** | **~$257M ARR** (Acquired by Automation Anywhere; $150M+ raised) | **$200,000/year** (AWS Marketplace entry tier for up to 1,000 users; ~$108K/yr median contract) | **30-day trial for up to 50 users** via AWS Marketplace private listing (no self-serve free plan). | Deep IT and HR service desk domain configuration with multi-LLM orchestration. | Heavy implementation setup fees (often 50%–100% of Year-1 license); post-acquisition roadmap changes. |
+| **[Ada](https://www.ada.cx/)** | **$1.2B valuation** (~$70M+ ARR) | **$33,000/year** (AWS Marketplace entry tier for 60,000 conversations; ~$60K/yr typical starting plan) | **No self-serve free plan or public trial**; guided proof of concept (PoC) available only via enterprise sales qualification. | Agentic customer experience platform with deep workflow actions and reasoning engines across omnichannel support. | High annual entry price; requires sales consultation and substantial implementation commitment ($15K–$100K+). |
+| **[Yellow.ai](https://yellow.ai/)** | **$550M valuation** (Public listing via SPAC / $350M+ raised) | **$0/month** (Free tier) or **Custom enterprise quotes** for scaled dynamic AI | **Free forever plan** includes 5,000 monthly bot sessions, 500 chat/email tickets/month, unlimited agent seats, 2 channels, and 1,000 WhatsApp conversations/mo. | Omnichannel enterprise conversational AI supporting both customer engagement and internal employee IT desks. | Freemium tier excludes advanced analytics, Doc Cog, Voice, and SMS channels. |
+| **[Capacity](https://www.capacity.com/)** | **$100M+ ARR** ($159M+ venture funding raised) | **$25,000/year** (~$2,083/month baseline annual platform fee for Core tier) | **No public free tier or self-serve trial**; custom guided proof-of-concept (POC) sandbox environments provided after sales scoping. | AI support platform combining helpdesk ticketing, knowledge automation, and agent assist without separate LLM token bills. | Platform fee plus volume-based AI usage fees require careful capacity and cost modeling; no instant onboarding. |
+| **[Forethought](https://forethought.ai/)** | **Acquired by Zendesk** ($115M+ raised; Zendesk's largest acquisition) | **$50/agent/month** (Assist) + **$0.50–$2.00/conversation** (Solve) | **No self-serve trial or free tier**; enterprise Proof of Value (POV) simulations run against historical ticket datasets. | Agentic AI workflow suite (Solve, Triage, Assist) purpose-built for ticket routing, agent assistance, and autonomous resolution. | Requires high historical volume (20,000+ tickets); implementation packages range from $10,000–$50,000+. |
 
 ## Open-Source GitHub Projects
 
