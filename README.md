@@ -1,52 +1,76 @@
-# Awesome-Conversational-Support-ITSM
+# 🚀 Awesome-Conversational-Support-ITSM
 
-# Awesome-Conversational-Support-ITSM
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Conversational Support &amp; ITSM Banner" width="100%" />
+</p>
 
-**Top Conversational Support ITSM (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Conversational-Support-ITSM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Conversational-Support-ITSM?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Conversational-Support-ITSM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Conversational-Support-ITSM?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Conversational-Support-ITSM/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Conversational-Support-ITSM?style=flat-square&color=blue" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+<p align="center">
+  <strong>Curated Directory of Enterprise SaaS Solutions &amp; Open-Source Projects for Conversational Support &amp; ITSM</strong><br>
+  <em>Explore AI Service Desks, Slack-First Ticketing Bots, Agent Assist Co-Pilots, and Self-Hosted Helpdesk Automation.</em>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <strong>🌟 Star if you find this repository valuable! 🌟</strong><br>
+  <em>Last updated: November 2026</em>
+</p>
 
-*Focused on AI Service Desk, Slack-First Ticketing, Agent Assist & Self-Hosted Helpdesk Automation*
+---
 
-**Last updated: November 2026**
+## 📌 Executive Overview
 
+This repository is an SEO-optimized, production-focused guide tracking commercial **SaaS platforms** and self-hosted **open-source repositories** in the **Conversational Support & ITSM (IT Service Management)** ecosystem. 
 
+Modern conversational ITSM platforms empower employees and customers to resolve incidents, provision accesses, query knowledge bases, and submit service tickets directly within collaborative communication channels like **Slack**, **Microsoft Teams**, WhatsApp, and Web Chat. By combining autonomous **LLM reasoning agents** for routine tier-1 deflection with seamless **human-in-the-loop (HITL)** escalations, organizations slash resolution times while retaining full control over support telemetry and compliance.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Conversational Support & ITSM**. These tools enable employees and customers to resolve issues through chat, Slack, or messaging interfaces—with AI agents handling routine requests and escalating to humans when needed—from fully managed enterprise platforms with agentic resolution to self-hosted frameworks that give organizations control over their service desk data and LLM provider.
+### 🎯 Key Focus Areas
+- 🤖 **Agentic Resolution**: Autonomous multi-step IT workflow execution (e.g., password resets, software provisioning, VPN diagnostics).
+- 💬 **Slack-First & Teams-First Ticketing**: Frictionless conversational interfaces converting chat threads into structured service requests.
+- 🧠 **Retrieval-Augmented Generation (RAG) Helpdesks**: Grounded question answering over internal runbooks, Confluence, SharePoint, and historical ticket memory.
+- 🔒 **Data Sovereignty & Self-Hosted Solutions**: Full ownership over sensitive employee PII and LLM inference providers.
 
+---
 
+## 📑 Table of Contents
 
-**Examples** include Atlassian Assist, Zendesk AI, Intercom, Moveworks, Aisera, Freshservice, Capacity, Forethought, Ada, and Yellow.ai (the category leaders in commercial space).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Open-Source Ranking by Stars](#-open-source-ranking-by-stars)
+  - [🔍 Deep-Dives into Key Repositories](#-deep-dives-into-key-repositories)
+  - [🛠️ Architectural Blueprints for Custom Stacks](#️-architectural-blueprints-for-custom-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted conversational support, RAG-based IT agents, and open helpdesk infrastructure. **Critical note**: True open-source conversational ITSM is nascent—**helpdesk-agentico** is the only purpose-built RAG agent for IT support with human-in-the-loop approval , while **Chatwoot** provides the support inbox foundation without native ITSM workflows . No open-source project matches Moveworks' multi-system agentic execution or Aisera's enterprise service desk depth, but for teams building conversational support from scratch, the foundational components exist.
+The global conversational AI and IT support automation market is estimated at **$14B–$19B** and projected to surpass **$75B–$115B+** by the mid-2030s, expanding at a rapid **21%–25%+ CAGR**.
 
+The sector exhibits a **hybrid competitive structure**:
+- 🏛️ **Concentrated at the Platform Layer**: Heavily dominated by hyperscalers (Microsoft, AWS, GCP) providing foundational LLM infrastructure, alongside legacy enterprise ITSM titans (ServiceNow, Atlassian, Zendesk, Salesforce) that embed native agentic copilots directly into their core databases and workflows.
+- 🧩 **Moderately Fragmented at the Application Layer**: Niche agentic startups (e.g., Moveworks, Forethought, Ada) and composable open-source frameworks (Dify, Chatwoot, Langfuse, GLPI) compete aggressively to deliver multi-system orchestration, customized domain RAG, and vendor-neutral data sovereignty.
 
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## 🏢 SaaS & Hosted Platforms
 
+The following benchmark compares leading commercial conversational support and ITSM platforms, sorted descending by **Company Size (Market Capitalization / Valuation / ARR)**. Every entry specifies transparent entry-level pricing tiers, exact trial conditions, and core architectural trade-offs.
 
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global conversational AI and IT support automation market is estimated at **$14B–$19B** and projected to surpass **$75B–$115B+** by the mid-2030s, expanding at a robust **21%–25%+ CAGR**.
-
-The sector features a **hybrid competitive structure**: heavily **concentrated** at the core enterprise platform layer (dominated by hyperscalers and large ITSM incumbents like ServiceNow, Atlassian, and Zendesk), but **moderately fragmented** at the application and point-solution layer where niche agentic vendors and composable open-source frameworks compete to solve specialized, cross-system workflows.
-
-## SaaS/Hosted Platforms
-
-| Company / Product | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits | Key Features & Best For | Trade-offs |
+| 🏢 Company / Product | 📈 Company Size (Valuation / Revenue) | 🏷️ Starting Tier Pricing | 🎁 Free Tier / Trial Limits | 🚀 Key Capabilities & Best For | ⚖️ Architectural Trade-offs |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[Atlassian Assist](https://www.atlassian.com/software/jira/service-management)** (JSM) | **$53B market cap** (~$5.22B FY25 revenue) | **$20/agent/month** (Standard) or **$51.42/agent/month** (Premium) billed annually | **Free for up to 3 agents** permanently with 2 GB storage; includes core incident request queues and unlimited portal customers (AI Assist features require Premium tier). | Slack-native service management for Jira Service Management. Employees react with `:ticket:` or `/assist` in Slack to create tickets; works across service spaces without full Jira licenses. | AI virtual agent requires Premium+ ($51.42+/mo); single Slack workspace per Jira site; no native two-way thread sync. |
 | **[Zendesk AI](https://www.zendesk.com/)** | **$10.2B valuation** (Acquired by H&F/Permira; ~$1.34B+ ARR) | **$19/agent/month** billed annually (Support Team) or **$55/agent/month** (Suite Team) | **14-day free trial** with full access to Suite Professional features (no permanent free tier). | Built-in AI agents and agent assist within Zendesk Suite. Best for organizations wanting resolution-oriented automation natively inside their ticketing tool. | Outcome-based AI pricing ($1.50–$2.00 per automated resolution); Copilot is an additional $50/agent/mo; per-seat + per-resolution fees stack up. |
@@ -59,88 +83,133 @@ The sector features a **hybrid competitive structure**: heavily **concentrated**
 | **[Capacity](https://www.capacity.com/)** | **$100M+ ARR** ($159M+ venture funding raised) | **$25,000/year** (~$2,083/month baseline annual platform fee for Core tier) | **No public free tier or self-serve trial**; custom guided proof-of-concept (POC) sandbox environments provided after sales scoping. | AI support platform combining helpdesk ticketing, knowledge automation, and agent assist without separate LLM token bills. | Platform fee plus volume-based AI usage fees require careful capacity and cost modeling; no instant onboarding. |
 | **[Forethought](https://forethought.ai/)** | **Acquired by Zendesk** ($115M+ raised; Zendesk's largest acquisition) | **$50/agent/month** (Assist) + **$0.50–$2.00/conversation** (Solve) | **No self-serve trial or free tier**; enterprise Proof of Value (POV) simulations run against historical ticket datasets. | Agentic AI workflow suite (Solve, Triage, Assist) purpose-built for ticket routing, agent assistance, and autonomous resolution. | Requires high historical volume (20,000+ tickets); implementation packages range from $10,000–$50,000+. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects
 
+Open-source conversational ITSM and support software gives engineering teams full data sovereignty, zero per-ticket license fees, and the ability to customize LLM reasoning engines.
 
-- **[helpdesk-agentico](https://github.com/dfserver1/helpdesk-agentico)**
+Below is a curated collection of active open-source projects ranging from purpose-built RAG IT agents and comprehensive service desks to conversational inboxes and AI orchestration engines.
 
-  **Open-source RAG support agent for IT with self-learning memory** (license per repo) — **the only purpose-built open-source conversational ITSM agent** found in this research . **Features**: **RAG-based IT support agent** with **Gemini (free tier)**; **self-training memory** (`MemoryIngest`/`MemoryRecall` endpoints)—teach the agent from past resolutions; **human-in-the-loop (HITL)**—agent creates draft tickets requiring `ChatDecide` approval before finalization; **SLA calculation** on ticket creation; **SharePoint/Teams/Outlook/web connectors** via `ConnectorsSearch`; **JWT authentication** (60-min expiry, configurable); FastAPI + Streamlit stack . **Tech stack**: Python (FastAPI), Streamlit, Gemini API. **Deploy**: Self-hosted (Hugging Face Spaces demo available) . **Trade-off**: **Early-stage project**—Spanish-language documentation; no traditional helpdesk UI (inbox, queues, reporting); Gemini dependency for free tier. **Best for**: developers wanting a working RAG agent with self-learning memory and HITL approval for IT support—especially those wanting to build on a functional foundation rather than starting from scratch.
+### ⭐ Open-Source Ranking by Stars
 
+Every repository is ranked below in **descending order by GitHub stargazers**, featuring real-time star badges linking directly to each repo's stargazers community:
 
-
-- **[Chatwoot](https://github.com/chatwoot/chatwoot)**
-
-  **Open-source customer engagement platform** (MIT for Community Edition) — **the support inbox foundation** for conversational support, with live chat, email, and social channels . **Features**: Shared inbox; website live chat widget; email and social channel support; **human handoff from bots**; multi-brand support. **Enterprise Edition** adds custom dashboards, SLA management, agent scheduling, and IP blocking. **Tech stack**: Ruby on Rails, Vue.js. **Deploy**: Self-hosted or Chatwoot Cloud. **Trade-off**: **No native ITSM workflows**—no incident/problem/change management, no asset CMDB, no service catalog. AI integration is via webhooks to external services. **Best for**: teams wanting a self-hosted support inbox with live chat and bot handoff—pair with an external ITSM tool or custom ticketing logic.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **osTicket** — Widely-used open-source support ticket system (GPL). **Note**: **Traditional ticketing, not conversational AI**—no chat interface, no RAG agent, no Slack integration. **Best for**: organizations needing basic self-hosted ticketing without AI, not conversational ITSM.
-
-- **Zammad** — Open-source helpdesk with email, chat, and social channels (AGPL). **Note**: Helpdesk foundation; AI features require integrations. **Best for**: teams wanting a mature open-source helpdesk without conversational AI built in.
-
-- **Rasa** — Open-source conversational AI framework (Apache-2.0). **Note**: **NLU framework, not ITSM**—no ticketing, no SLA, no service catalog. **Best for**: building custom conversational flows that feed into a separate ticketing system.
-
-
-
-**Frameworks for building custom systems**: Combine **helpdesk-agentico** for RAG-based IT resolution with HITL approval, **Chatwoot** for the support inbox and channel management, and **Rasa** for custom NLU flows—creating a composable open-source conversational ITSM stack. **None of these match Moveworks' multi-system agentic execution or Aisera's enterprise service desk depth**, but for teams prioritizing data sovereignty, the foundational components exist.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Conversational support and ITSM platforms handling employee and customer data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for service desk tickets and conversations.
-
-- **The "Slack-first ticketing" vs. "AI service desk" vs. "agentic execution" vs. "support inbox" distinction is critical.** **Atlassian Assist** is **Slack-first ticketing**—it creates Jira tickets from Slack, but AI requires Premium+ . **Zendesk AI, Intercom, Freshservice, and Yellow.ai** are **AI-enhanced support platforms**—they add AI to existing helpdesk/ITSM . **Moveworks and Aisera** are **agentic AI service desks**—they execute multi-step requests across enterprise systems . **Capacity and Forethought** are **AI resolution platforms**—they automate specific support workflows . **Ada** is **agentic customer experience**—deep integrations for resolution . **helpdesk-agentico** is a **RAG IT agent**—it resolves from knowledge and creates draft tickets with approval . **Chatwoot** is a **support inbox**—the channel layer without ITSM workflows . **Choose based on whether you need ticketing, AI resolution, agentic execution, or inbox foundation.**
-
-- **Moveworks and Aisera are enterprise-only with six-figure floors.** Moveworks anchors at **$150/user/year** (~$150K for 1,000 employees) with **no free trial** . Aisera median is **~$108K/year** with **implementation adding 50–100%** . **Neither is viable for small teams**—evaluate only if you are prepared for enterprise procurement.
-
-- **Zendesk and Intercom both stack AI costs on top of seat pricing.** Zendesk: **$115/seat + $1.50–$2.00/resolution + $50 Copilot add-on** . Intercom: **$29/seat + outcome-based Fin fees** . **Model your resolution volume before committing**—AI costs can exceed seat costs at scale.
-
-- **Yellow.ai is the only platform with a genuine free-forever tier**—**5,000 bot conversations, 500 tickets, unlimited agents, 2 channels** . **For teams evaluating conversational AI without a sales call, it is the pragmatic starting point.**
-
-- **Atlassian Assist is no longer a standalone purchase.** It is tied to Jira Service Management Cloud, with AI features on **Premium+ tiers** . **JSM Free covers 3 agents** but not Assist AI . **Do not plan an Assist deployment on JSM Free.**
-
-- **helpdesk-agentico is the only open-source conversational ITSM agent**, but it is **early-stage with Spanish documentation and no traditional helpdesk UI** . **The trade-off**: it provides RAG resolution and HITL ticket drafting, not a complete service desk. **For teams wanting to build conversational ITSM from scratch, it is the functional starting point.**
-
-- **Chatwoot is not an ITSM tool.** It provides the support inbox and channels but **lacks incident, problem, change, SLA, and CMDB capabilities** . **Pair it with an external ITSM tool or custom ticketing logic for full service management.**
-
-- **Pricing opacity is near-universal.** Atlassian (Premium+), Zendesk (Enterprise), Intercom (Advanced), Moveworks, Aisera, Freshservice (Enterprise), Capacity, Forethought, Ada, and Yellow.ai (Premium) all require sales contact or tier commitment. **Validate with direct vendor conversations against your ticket volume and AI resolution targets.**
-
-- Self-hosted open-source solutions require proper infrastructure (Gemini API for helpdesk-agentico, Ruby/PostgreSQL for Chatwoot), security hardening for service desk credentials, and ongoing maintenance. **Conversational support systems handle employee and customer PII**—ensure your deployment meets your organization's privacy and compliance requirements before connecting production channels.
-
-
+| 📦 Repository | ⭐ Stars | 📜 License | 🎯 Primary Category | 💡 Architectural Purpose in Conversational Support & ITSM |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Dify](https://github.com/langgenius/dify)** | <a href="https://github.com/langgenius/dify/stargazers"><img src="https://img.shields.io/github/stars/langgenius/dify?style=social&color=white" alt="Dify Stars" /></a> | Apache-2.0 | LLM Application & Agent Orchestration | Visual prompt orchestration, RAG pipelines, and conversational agent workflows with built-in Slack, Teams, and Webhook integrations. |
+| **[Novu](https://github.com/novuhq/novu)** | <a href="https://github.com/novuhq/novu/stargazers"><img src="https://img.shields.io/github/stars/novuhq/novu?style=social&color=white" alt="Novu Stars" /></a> | MIT | Unified Notification Infrastructure | Critical routing layer for dispatching conversational ticket alerts, SLA escalations, and incident notifications across Slack, SMS, Email, and Teams. |
+| **[Chatwoot](https://github.com/chatwoot/chatwoot)** | <a href="https://github.com/chatwoot/chatwoot/stargazers"><img src="https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white" alt="Chatwoot Stars" /></a> | MIT | Omnichannel Support Inbox & Live Chat | Shared team inbox with live chat widget, email, WhatsApp, and social channel management with native bot handoff to human support engineers. |
+| **[Langfuse](https://github.com/langfuse/langfuse)** | <a href="https://github.com/langfuse/langfuse/stargazers"><img src="https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white" alt="Langfuse Stars" /></a> | MIT | LLM Observability & Evaluation | Production monitoring, latency tracking, cost analytics, and prompt evaluation for conversational ITSM agents and RAG pipelines. |
+| **[Rasa](https://github.com/RasaHQ/rasa)** | <a href="https://github.com/RasaHQ/rasa/stargazers"><img src="https://img.shields.io/github/stars/RasaHQ/rasa?style=social&color=white" alt="Rasa Stars" /></a> | Apache-2.0 | Enterprise Conversational AI & NLU | Deterministic dialogue management, natural language understanding (NLU), and enterprise chatbot frameworks connecting frontends to backend IT queues. |
+| **[Botpress](https://github.com/botpress/botpress)** | <a href="https://github.com/botpress/botpress/stargazers"><img src="https://img.shields.io/github/stars/botpress/botpress?style=social&color=white" alt="Botpress Stars" /></a> | AGPL-3.0 | Conversational Bot Builder & Flows | Developer platform for creating modular conversational bots, intent classifications, and webhook triggers for internal helpdesks. |
+| **[GLPI](https://github.com/glpi-project/glpi)** | <a href="https://github.com/glpi-project/glpi/stargazers"><img src="https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white" alt="GLPI Stars" /></a> | GPL-3.0 | Complete Open-Source ITSM & Asset CMDB | Mature ITIL-compliant service desk managing incidents, changes, problems, and IT assets; pairs with conversational frontends via REST API. |
+| **[Papercups](https://github.com/papercups-io/papercups)** | <a href="https://github.com/papercups-io/papercups/stargazers"><img src="https://img.shields.io/github/stars/papercups-io/papercups?style=social&color=white" alt="Papercups Stars" /></a> | MIT | Open-Source Live Customer Messaging | Built-in two-way Slack sync allowing support agents to reply directly from internal Slack channels to end-user web chat tickets. |
+| **[Zammad](https://github.com/zammad/zammad)** | <a href="https://github.com/zammad/zammad/stargazers"><img src="https://img.shields.io/github/stars/zammad/zammad?style=social&color=white" alt="Zammad Stars" /></a> | AGPL-3.0 | Enterprise Helpdesk & Support Ticketing | Modern web-based helpdesk platform supporting omni-channel tickets, SLA management, and customizable webhooks for bot integration. |
+| **[FreeScout](https://github.com/freescout-helpdesk/freescout)** | <a href="https://github.com/freescout-helpdesk/freescout/stargazers"><img src="https://img.shields.io/github/stars/freescout-helpdesk/freescout?style=social&color=white" alt="FreeScout Stars" /></a> | AGPL-3.0 | Lightweight Helpdesk & Shared Inbox | Self-hosted PHP/Laravel alternative to Zendesk/Help Scout with extensive community module support for chat and automated workflows. |
+| **[osTicket](https://github.com/osTicket/osTicket)** | <a href="https://github.com/osTicket/osTicket/stargazers"><img src="https://img.shields.io/github/stars/osTicket/osTicket?style=social&color=white" alt="osTicket Stars" /></a> | GPL-2.0 | Traditional Open-Source Ticket System | Battle-tested ticket routing and web portal infrastructure; serves as a reliable backend for custom conversational wrappers. |
+| **[helpdesk-agentico](https://github.com/dfserver1/helpdesk-agentico)** | <a href="https://github.com/dfserver1/helpdesk-agentico/stargazers"><img src="https://img.shields.io/github/stars/dfserver1/helpdesk-agentico?style=social&color=white" alt="helpdesk-agentico Stars" /></a> | MIT (Per repo) | Purpose-Built RAG IT Support Agent | Specialized RAG support agent for IT featuring self-learning resolution memory (`MemoryIngest`/`MemoryRecall`) and human-in-the-loop (`ChatDecide`) approval. |
 
 ---
 
+### 🔍 Deep-Dives into Key Repositories
 
+#### 1. [helpdesk-agentico](https://github.com/dfserver1/helpdesk-agentico) — *Specialized RAG IT Agent with HITL Verification*
+- **Overview**: The only open-source project engineered specifically for conversational IT service desks with built-in ticket drafting and memory recall.
+- **Core Features**:
+  - **Self-Learning Resolution Memory**: Endpoints (`MemoryIngest`/`MemoryRecall`) index resolved tickets and runbooks into vector memory to answer future inquiries automatically.
+  - **Human-in-the-Loop (HITL) Validation**: The agent creates structured ticket drafts that require explicit administrative approval (`ChatDecide`) before committing changes to production databases.
+  - **Enterprise Connectors**: Native connectors (`ConnectorsSearch`) for SharePoint, Teams, Outlook, and web documentation.
+  - **Tech Stack**: FastAPI (Python), Streamlit, Google Gemini API, JWT authentication.
+- **Trade-offs**: Early-stage repository with Spanish documentation and no out-of-the-box agent inbox UI.
 
-**Made for IT service managers, support teams, and organizations building transparent conversational ITSM solutions.**
+#### 2. [Chatwoot](https://github.com/chatwoot/chatwoot) — *Omnichannel Support Inbox Foundation*
+- **Overview**: A modern, self-hosted customer engagement suite that functions as the ideal conversational front-end for internal IT service desks.
+- **Core Features**:
+  - Live chat widgets, shared email team inboxes, and bidirectional connectors for Slack, WhatsApp, and Telegram.
+  - Native bot handoff mechanics that transition automated conversational sessions to live human support agents.
+  - Comprehensive REST APIs and webhooks for dispatching events to external LLMs and ITSM backends.
+- **Trade-offs**: Lacks native ITIL workflows (incident/change management, CMDB asset tracking, and SLA escalation).
 
-Let's make Conversational Support & ITSM more open, data-driven, and resolution-friendly.
+#### 3. [GLPI](https://github.com/glpi-project/glpi) — *ITIL-Compliant ITSM & CMDB Backbone*
+- **Overview**: A mature, full-featured open-source IT service management solution managing asset inventories, license lifecycles, and ITIL-structured service desks.
+- **Core Features**:
+  - Full support for Incident, Problem, Change, and Release Management.
+  - Comprehensive Asset Management / CMDB database tracking hardware, software, and user assignments.
+  - Robust REST API enabling conversational frontends (e.g., Slack bots) to query ticket statuses and trigger automated ticket creations.
+- **Trade-offs**: Traditional web interface requiring custom middleware or integration engines to power conversational chat experiences.
+
+#### 4. [Dify](https://github.com/langgenius/dify) — *Visual Agentic Workflow Engine*
+- **Overview**: An open-source LLM application development platform that simplifies orchestrating multi-agent systems, RAG pipelines, and conversational tools.
+- **Core Features**:
+  - Visual drag-and-drop workflow canvas for designing deterministic and agentic resolution paths.
+  - Ready-to-use connectors for vector databases, external tool APIs, and team messaging channels.
+  - Built-in prompt management, dataset chunking, and model-agnostic LLM provider switching.
+- **Trade-offs**: General-purpose AI orchestration requiring deliberate configuration to enforce ITSM ticket lifecycle rules.
+
+---
+
+### 🛠️ Architectural Blueprints for Custom Stacks
+
+For organizations looking to deploy an enterprise-grade, privacy-first conversational ITSM stack entirely on self-hosted infrastructure:
+
+```
+[ Slack / Microsoft Teams / Web Chat ]
+                  │
+                  ▼
+   [ Omnichannel Layer: Chatwoot / Papercups ]
+                  │
+                  ▼
+ [ AI Reasoning & RAG Layer: Dify / helpdesk-agentico / Rasa ]
+         │                                    │
+         ▼                                    ▼
+[ Observability: Langfuse ]        [ ITIL Engine & CMDB: GLPI / Zammad ]
+```
+
+1. **Frontend Channel Layer**: Deploy **Chatwoot** or **Papercups** to aggregate incoming conversations from Slack, Teams, and web portals.
+2. **Reasoning & Execution Layer**: Pipe messages into **Dify** or **helpdesk-agentico** to run vector search across IT knowledge bases and execute automated diagnosis scripts.
+3. **Observability & Guardrails**: Connect **Langfuse** to track token expenditures, monitor prompt latency, and log conversational resolution accuracy.
+4. **ITSM System of Record**: Record all approved incidents, changes, and user asset updates into **GLPI** or **Zammad** via secure REST webhooks.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To suggest new tools, update pricing tiers, or refine open-source entries:
+
+1. **Fork the Repository**: Click the `Fork` button at the top right of this page.
+2. **Create a Feature Branch**: `git checkout -b feat/add-new-itsm-tool`.
+3. **Update Documentation**: Add your tool adhering to the existing tabular format (include link, license/pricing, free tier limits, and realistic trade-offs).
+4. **Submit a Pull Request**: Provide a clear summary of what you added and why it benefits the conversational support ecosystem.
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated guide helps your organization navigate conversational support, evaluate ITSM vendors, or architect self-hosted AI service desks:
+
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and share** with your DevOps, IT operations, and engineering peers.
+- ☕ **Support future development**: Buy us a coffee or sponsor ongoing research directly through the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Conversational-Support-ITSM&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Conversational-Support-ITSM&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for architectural research, operational benchmarking, and informational purposes; it does not constitute an endorsement.
+- **Data Governance & Compliance**: Conversational support systems routinely process employee PII, credentials, and sensitive internal logs. Ensure self-hosted or hosted implementations comply with SOC2, GDPR, HIPAA, and internal security guardrails before granting access to production endpoints.
+- **Architectural Scope**: Carefully distinguish between **Slack-First Ticketing** (e.g., Atlassian Assist), **AI Support Suites** (Zendesk AI, Intercom, Freshservice), **Autonomous Enterprise Agentic Desks** (Moveworks, Aisera), and **Support Inboxes** (Chatwoot). Select architectures that match your desired level of autonomous execution vs. ticket management.
+- **Pricing Opacity**: Commercial SaaS vendor pricing changes frequently; always verify final enterprise volume quotes directly with software providers.
+
+---
+
+<p align="center">
+  <strong>Built with care for IT Service Managers, DevOps Engineers, and AI Architects.</strong><br>
+  <em>Let's make Conversational Support &amp; ITSM more open, transparent, and resolution-focused.</em>
+</p>
