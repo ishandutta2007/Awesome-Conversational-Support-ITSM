@@ -93,9 +93,9 @@ Below is a curated collection of active open-source projects ranging from purpos
 
 ### ⭐ Open-Source Ranking by Stars
 
-Every repository is ranked below in **descending order by GitHub stargazers**, featuring real-time star badges linking directly to each repo's stargazers community:
+Every repository is ranked below in **descending order by GitHub stargazers**, featuring real-time Stars_Badges linking directly to each repo's stargazers community:
 
-| 📦 Repository | ⭐ Stars | 📜 License | 🎯 Primary Category | 💡 Architectural Purpose in Conversational Support & ITSM |
+| 📦 Repository | ⭐ GitHub_Stars | 📜 License | 🎯 Primary Category | 💡 Architectural Purpose in Conversational Support & ITSM |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Dify](https://github.com/langgenius/dify)** | <a href="https://github.com/langgenius/dify/stargazers"><img src="https://img.shields.io/github/stars/langgenius/dify?style=social&color=white" alt="Dify Stars" /></a> | Apache-2.0 | LLM Application & Agent Orchestration | Visual prompt orchestration, RAG pipelines, and conversational agent workflows with built-in Slack, Teams, and Webhook integrations. |
 | **[Novu](https://github.com/novuhq/novu)** | <a href="https://github.com/novuhq/novu/stargazers"><img src="https://img.shields.io/github/stars/novuhq/novu?style=social&color=white" alt="Novu Stars" /></a> | MIT | Unified Notification Infrastructure | Critical routing layer for dispatching conversational ticket alerts, SLA escalations, and incident notifications across Slack, SMS, Email, and Teams. |
